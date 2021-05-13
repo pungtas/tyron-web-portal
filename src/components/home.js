@@ -4,7 +4,7 @@ import { Link, withRouter } from "react-router-dom";
 function Home() {
     return (
         <div id="header" style={{ marginTop: '1%', width: '100%' }}>
-            <nav style={{ width:"100%"}}>
+            <nav>
                 <ul>
                     <li><Link to="/about">About</Link></li>
                     <li><Link to="/did">DID</Link></li>
@@ -12,8 +12,8 @@ function Home() {
                     <li><Link to="/token">Token</Link></li>
                     <li><Link to="/defi">DeFi</Link></li>
                     <li><Link to="/permawallet">Wallet</Link></li>
-                    <li><Link to="/browser">Browser</Link></li>
-                    <li><Link to="/contact">Contact</Link></li>
+                    <li><a href="https://www.ssibrowser.com">Browser</a></li>
+                    <li><Link to="/contact">Join us</Link></li>
                 </ul>
             </nav>
         </div>

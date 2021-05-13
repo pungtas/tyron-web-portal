@@ -54,7 +54,7 @@ function ConnectWallet({ taken, username, domain, account, pscMember }) {
 		<div id="main" style={{ marginTop:"4%" }}>
             <h2 style={{ width: "100%", textAlign:"center" }} class="major">Sign in</h2>
             <section style={{ width:'100%' }}>
-                <p>Connect your SSI Permaweb Key to access your settings or to register a new account:</p>
+                <p>Connect your <code>SSI permaweb secret key</code> to access your settings or to register a new account:</p>
                 <ul>
                     <li><input class="button" type="button" value={ value }
                         onClick={ async() => {
