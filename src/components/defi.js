@@ -17,7 +17,7 @@ function DeFi() {
             </section>
             <section style={{ width: "100%"}}>
                 <h3 class="major">SSI Bridge: $TYRON + Gas Stations</h3>
-                <p>SSI gas stations will exist for the self-sovereign identities to buy gas (e.g. AR) from them, provided by SSI Agents ($AYJA holders).</p>
+                <p>SSI gas stations will exist for the self-sovereign identities to buy gas (e.g. AR) from them, provided by SSI Agents.</p>
                 <p>Gas stations will only accept $TYRON as means of payment. Fees will also get paid in $TYRON:</p>
                 <ul>
                     <li>SSI Agents can charge a fee</li>
