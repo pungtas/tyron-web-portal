@@ -330,7 +330,7 @@ function Settings({ username, domain, account, pscMember, arweave, arconnect, ke
                 </form>
             </section>
             <section style={{ width: "100%", marginTop: "4%" }}>
-                <h4 class="major">Update your SSI Travel Rule Passport</h4>
+                <h4 class="major">Update your Travel Rule SSI Passport</h4>
                 <form>
                     <div class="fields">
                         <div class="field half">
@@ -384,13 +384,13 @@ function Settings({ username, domain, account, pscMember, arweave, arconnect, ke
                                             throw new Error(`You have to connect with ArConnect or your keyfile.`)
                                         }
                                         if( savePassportLegend === 'save' ){
-                                            throw new Error('You have to fill up and save the SSI Travel Rule Passport information first.')
+                                            throw new Error('You have to fill up and save the Travel Rule SSI Passport information first.')
                                         }
 
                                         // Travel Rule Passport
                                         const trSsiKeys = await DKMS.generateSsiKeys(arweave);
                                         const encryptedTrPassport = await DKMS.encryptData(ivms101, trSsiKeys.publicEncryption);
-                                        alert(`This is your encrypted SSI Travel Rule Passport: ${ encryptedTrPassport }`);
+                                        alert(`This is your encrypted Travel Rule SSI Passport: ${ encryptedTrPassport }`);
 
                                         const fee = arweave.ar.arToWinston('0.1');
                                         
@@ -398,7 +398,7 @@ function Settings({ username, domain, account, pscMember, arweave, arconnect, ke
                                         let input;
                                         let tx;
                                         if( arconnect !== '' ){
-                                            if( window.confirm("The fee to update your SSI Travel Rule Passport is 0.1 $AR, paid to the AYJA profit sharing community. Click OK to proceed.")) {
+                                            if( window.confirm("The fee to update your Travel Rule SSI Passport is 0.1 $AR, paid to the AYJA profit sharing community. Click OK to proceed.")) {
                                                 ssiTravelRulePrivate = await DKMS.encryptKey(arconnect, trSsiKeys.privateKey);
                                                 input = {
                                                     function: 'trp',
