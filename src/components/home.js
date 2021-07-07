@@ -9,7 +9,6 @@ function Home() {
                     <li><Link to="/about">About</Link></li>
                     <li><Link to="/did">DID</Link></li>
                     <li><Link to="/mapu">.Mapu</Link></li>
-                    <li><Link to="/psc">Community</Link></li>
                     <li><Link to="/permawallet">Wallets</Link></li>
                     <li><a href="https://www.ssibrowser.com">Browser</a></li>
                     <li><Link to="/contact">Join us</Link></li>
