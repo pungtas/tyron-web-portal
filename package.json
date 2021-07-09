@@ -1,12 +1,12 @@
 {
-  "name": "tyron-permaweb-dapp",
-  "description": "Tyron Self-Sovereign Identity Protocol permaweb decentralized application",
+  "name": "tyron-web-portal",
+  "description": "Self-Sovereign Identity Protocol's web portal",
   "version": "0.3.0",
   "homepage": "https://ssiprotocol.com",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pungtas/tyron-permaweb-dapp.git"
+    "url": "git+https://github.com/pungtas/tyron-web-portal.git"
   },
   "author": "Tyron Pungtas",
   "license": "GPL-3.0-only",

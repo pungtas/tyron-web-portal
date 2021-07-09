@@ -48,7 +48,7 @@ function Browser() {
                         <tbody>
                             <tr>
                                 <td>.mapu</td>
-                                <td><Link to="/mapu"><i>.Mapu</i></Link> communities</td>
+                                <td><Link to="/mapu"><i>Mapu</i></Link> communities</td>
                             </tr>
                             <tr>
                                 <td>.did</td>

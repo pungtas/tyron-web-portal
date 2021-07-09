@@ -5,7 +5,7 @@ export { default as About } from "./about";
 export { default as Did } from "./did";
 export { default as Mapu } from "./mapu";
 export { default as PSC } from "./psc";
-export { default as Permawallet } from "./permawallet";
+export { default as Wallets } from "./wallets";
 export { default as Browser } from "./browser";
 export { default as Contact } from "./contact";
 export { default as Profile } from "./profile";
