@@ -1,7 +1,7 @@
 {
   "name": "tyron-web-portal",
   "description": "Self-Sovereign Identity Protocol's web portal",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "homepage": "https://ssiprotocol.com",
   "private": true,
   "repository": {
