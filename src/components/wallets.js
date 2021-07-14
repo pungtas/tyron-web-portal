@@ -37,6 +37,26 @@ function Wallets() {
                     receiver/beneficiary's SSI Communication Key so they can read the originator's Travel Rule SSI Passport and prevent money laundering.</p>
             <h3 class="major">DID xWallet</h3>
                 <p>The <a href="https://github.com/pungtas/smart-contracts.tyron/blob/main/DID/DIDdapps/DIDxWallet.tyron.scilla">DIDxWallet</a> is a smart contract wallet in open-source development.</p>
+                <p>Features include:</p>
+                <ul>
+                    <li>
+                        Social recovery: by enabling social recovery, you can have two users as recoverers. That means that if you lose access to your admin secret-key, they will be able
+                        to order your xWallet to update its <code>admin</code> with your new address. 
+                    </li>
+                    <li>
+                        Token swaps: by interacting directly with the <a href="https://zilswap.io">ZilSwap</a> smart contract, your xWallet can swap $ZIL for Singapore dollars ($XSGD) and more!
+                    </li>
+                    <li>
+                        Staking: you can delegate $ZIL from your xWallet to the <a href="https://stake.zilliqa.com/">Zilliqa staking</a> smart contract. Your xWallet will also calculate your 
+                        staking performance based on how much and for how long you have been staking and reward you in xPoints, Tyron's reputation points. Then your SSN operator will be able 
+                        to give you extra benefits according to your xPoints.
+                    </li>
+                    <li>
+                        Meta-transactions (xOrders): some transactions on your xWallet can get executed by a third party that we define as an SSI Agent. By making a transaction for you, your agent pays 
+                        the gas fees and enables exciting new features such as limit orders and auto-staking! For extra security and to prevent misbehaving agents, before accepting a 
+                        meta-transaction, your xWallet verifies that the xOrder given by your agent got indeed signed by your DID secret key that only you know.
+                    </li>
+                </ul>
             </section>
         </div>
 	);

@@ -6,7 +6,7 @@ function Mapu() {
 	return(
 		<div id="main">
             <span role="img" aria-label="back arrow" style={{ marginTop:"7%", marginBottom: '2%' }}><Link to="/">🔙</Link></span>
-            <h2 style={{ width: "100%", textAlign:"center" }}>Self-sovereign native communities</h2>
+            <h2 style={{ width: "100%", textAlign:"center" }}>Self-sovereign communities</h2>
             <section style={{ width:'100%' }}>
             <p>
                 We all care about our natural environment, to a greater or lesser extent. The focus on climate change, natural disasters and other 
