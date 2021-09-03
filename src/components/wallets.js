@@ -19,19 +19,22 @@ function Wallets() {
                 </p>
             <h3 class="major">Decentralized identifier smart contract wallet</h3>
                 <p>
-                    The <a href="https://github.com/pungtas/smart-contracts.tyron/blob/main/DID/DIDdapps/DIDxWallet/xwallet.tyron.scilla">DIDxWallet</a> is Zilliqa's first smart 
-                    contract wallet. The DIDxWallet integrates the <a href="https://tyronzil.com">tyronzil.com</a> W3C DID Method, implementing
-                    the <a href="https://github.com/pungtas/smart-contracts.tyron/blob/main/DID/did.tyron.scilla">did.tyron</a> smart contract, allowing the user to establish a decentralized 
-                    digital identity. Which now, got equipped with its very own wallet!
+                    The DIDxWallet is Zilliqa's first <a href="https://github.com/pungtas/smart-contracts.tyron/blob/main/DID/DIDdapps/DIDxWallet/xwallet.tyron.scilla">open-source smart contract wallet</a>.
+                    The xWallet implements the <a href="https://tyronzil.com">tyronzil.com</a> W3C DID Method, integrating the <a href="https://github.com/pungtas/smart-contracts.tyron/blob/main/DID/did.tyron.scilla">did.tyron</a> smart
+                    contract, which allows the user to establish a decentralized digital identity. Your Tyron DID identity now got equipped with a free xWallet! We want to promote being open-source and
+                    transparent, and you can read our code by searching did.tyron or xwallet.tyron in the <a href="https://ssibrowser.com">ssibrowser.com</a>.
                 </p>
                 <p>
-                    The did.tyron technology supports <a href="https://vitalik.ca/general/2021/01/11/recovery.html">Social Recovery</a> - thus, if your Admin key gets compromised, you can lock your digital identity and recover it through your social 
-                    recoverers. Such a use case is an example of how the tyronzil W3C DID infrastructure increases the security of users.
+                    The did.tyron technology supports <a href="https://vitalik.ca/general/2021/01/11/recovery.html">Social Recovery</a> - thus, if your Admin key gets compromised, you can lock your digital identity and recover it only through your social 
+                    recoverers. This use case is an example of how the Tyron DID infrastructure increases the security of users.
                 </p>
                 <p>
                     With a DIDxWallet, you can:
                 </p>
                 <ul>
+                    <li>
+                        Have a unique decentralized identifier and DID Document where you can show your public addresses and keys. Then people know how to interact with your self-sovereign identity.
+                    </li>
                     <li>
                         Own and transfer tokens
                         (<a href="https://github.com/Zilliqa/ZRC/blob/master/zrcs/zrc-2.md">ZRC2-standard</a>).
@@ -41,16 +44,19 @@ function Wallets() {
                         Social Recovery: if you lose access to your Admin secret-key, your social recoverers will be able to instruct your DIDxWallet to update its Admin with your new address. 
                     </li>
                     <li>
-                        DeFi: by interacting directly with the <a href="https://zilswap.io">ZilSwap</a> decentralized exchange smart contract, your DIDxWallet can swap $ZIL for Singapore dollars ($XSGD) and more!
+                        DeFi: by interacting directly with the <a href="https://zilswap.io">ZilSwap</a> decentralized exchange smart contract, your xWallet can trade $ZIL for Singapore dollars ($XSGD) and more!
                         Also, provide and remove liquidity.
                     </li>
                     <li>
-                        Staking: you can delegate $ZIL from your DIDxWallet to the <a href="https://stake.zilliqa.com/">Zilliqa staking</a> smart contract.
+                        Staking: you can delegate $ZIL from your xWallet to the <a href="https://stake.zilliqa.com/">Zilliqa staking</a> smart contract.
                     </li>
                 </ul>
                 <p>
-                    The DIDxWallet open-source development started during last year's <a href="https://www.xfers.com/sg">Xfers</a> $XSGD Hackathon along with <a href="https://zilhive.org/">ZILHive</a> Innovation Grants. This year got upgraded 
-                    with Ignite DAO funding to support $ZIL staking. Thanks, everyone!
+                    It's all smart contract to smart contract, on-chain, no intermediaries. As a Tyron SSI, you only have to pay the gas to execute all the above decentralized features. More coming soon.    
+                </p>
+                <p>
+                    The DIDxWallet open-source development started during last year's <a href="https://www.xfers.com/sg">Xfers</a> $XSGD Hackathon along with <a href="https://zilhive.org/">ZILHive</a> Innovation Grants. 
+                    This year, it got upgraded with Ignite DAO funding to support $ZIL staking. Thanks, everyone!
                 </p>
             </section>
         </div>
