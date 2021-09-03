@@ -7,7 +7,7 @@ function Header() {
             <img src={logo} width="20%" alt="tyron_logo"/>
             <div class="content">
                 <div class="inner">
-                    <h1>tyron self-sovereign identity protocol</h1>
+                    <h1>Tyron Self-Sovereign Identity Protocol</h1>
                     <p>own your data, empower your world</p>
                 </div>
             </div>

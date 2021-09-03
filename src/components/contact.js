@@ -7,6 +7,9 @@ function Contact() {
             <span role="img" aria-label="back arrow" style={{ marginTop:"7%", marginBottom: '2%' }}><Link to="/">🔙</Link></span>
             <h2 style={{ width: "100%", textAlign:"center" }}>Join us</h2>
             <section style={{ width: "100%", textAlign:"center" }}>
+                <p>
+                    Contact: <code>tyron@ssiprotocol.com</code>
+                </p>
                 <ul style={{ listStyle: 'none' }}>
                     <li>
                     <a
