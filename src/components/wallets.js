@@ -21,7 +21,7 @@ function Wallets() {
                 <p>
                     The <a href="https://github.com/pungtas/smart-contracts.tyron/blob/main/DID/DIDdapps/DIDxWallet/xwallet.tyron.scilla">DIDxWallet</a> is Zilliqa's first smart 
                     contract wallet. The DIDxWallet integrates the <a href="https://tyronzil.com">tyronzil.com</a> W3C DID Method, implementing
-                    the <a href="https://github.com/pungtas/smart-contracts.tyron/blob/main/DID/did.tyron.scilla">did.tyron</a> smart contract, allowing the user to establish a decentralised 
+                    the <a href="https://github.com/pungtas/smart-contracts.tyron/blob/main/DID/did.tyron.scilla">did.tyron</a> smart contract, allowing the user to establish a decentralized 
                     digital identity. Which now, got equipped with its very own wallet!
                 </p>
                 <p>

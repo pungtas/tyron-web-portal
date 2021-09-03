@@ -6,12 +6,7 @@ export { default as Did } from "./did";
 export { default as Mapu } from "./mapu";
 export { default as PSC } from "./psc";
 export { default as Wallets } from "./wallets";
-export { default as Browser } from "./browser";
 export { default as Contact } from "./contact";
-export { default as Profile } from "./profile";
-export { default as ConnectWallet } from "./connectWallet";
-export { default as CreateAccount } from "./createAccount";
-export { default as Settings } from "./settings";
 
 export const permawalletTemplateID = "_mugCanBhT46JlhYj_mPMLY8dv8frTAEoJ3SW2QOAtY";
 export const permawalletSourceID = "4n85EvQtVpt-hwacmqUt0-tABNFOPW1C1PluRXyfscI";

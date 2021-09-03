@@ -14,18 +14,21 @@ function About() {
 					, meaning ’sovereign’. The purpose of the Tyron Self-Sovereign Identity Protocol is to 
 					give people sovereignty over their data. Sovereignty to empower our world and to enhance our security online.
 				</p>
+				<p>
+					Tyron Pungtas is a private limited company incorporated in the Republic of Singapore to comply with the legal
+					requirements for the protection of our community.
+				</p>
 				<h3 class="major">Self-sovereign identity (SSI)</h3>
 				<p>
-					Self-Sovereign Identity enables people like you to manage their digital, online identities, proving who they are
+					The Tyron SSI Protocol enables people like you to manage your digital, online identities, proving who you are
 					without a middleman. This is achieved by anchoring <Link to="/did">decentralized identifiers</Link> on blockchain 
-					networks as a shared root of trust. With this technology, we can have legitimacy as users but without giving away 
-					our data to a centralised authority that owns our information. Thus, in the Tyron network, you become the sovereign 
-					owner of your online identity and data.
+					networks as a shared root of trust. With this technology, we can have legitimacy as users without giving
+					our data to a centralized authority that owns our information. Thus, the Tyron SSI Protocol empowers you to become
+					the sovereign owner of your online identity and data assets.
 				</p>
 				<p>
-					Specifically, Tyron develops web portals that are open-source software such as <Link to="/wallets">wallets</Link> and the
-					<a href="https://ssibrowser.com"> SSI Browser</a>. Through these portals, self-sovereign identities can share public 
-					and encrypted data, as well as make donations to aid natural and human-made disasters that endanger our planet’s ecosystems.
+				Specifically, Tyron develops open-source, decentralized applications such as <Link to="/wallets">smart contract wallets</Link>.
+				And it also provides other products and services for self-sovereign identities.
 				</p>
 			</section>
 		</div>
