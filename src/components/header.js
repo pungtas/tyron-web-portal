@@ -8,7 +8,7 @@ function Header() {
             <div class="content">
                 <div class="inner">
                     <h1>Tyron Self-Sovereign Identity Protocol</h1>
-                    <p>own your data, empower your world</p>
+                    <p>Own your data. Empower your world.</p>
                 </div>
             </div>
         </div>

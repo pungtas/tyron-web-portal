@@ -10,8 +10,7 @@ function Home() {
                     <li><Link to="/did">DID</Link></li>
                     <li><Link to="/mapu">Mapu</Link></li>
                     <li><Link to="/wallets">Wallets</Link></li>
-                    <li><a href="https://www.ssibrowser.com">Browser</a></li>
-                    <li><a href="https://github.com/pungtas/smart-contracts.tyron/tree/main/PST">Tokens</a></li>
+                    <li><Link to="/browser">Browser</Link></li>
                     <li><Link to="/contact">Join us</Link></li>
                 </ul>
             </nav>
