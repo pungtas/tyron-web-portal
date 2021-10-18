@@ -4,8 +4,8 @@ import { Link, withRouter } from "react-router-dom";
 
 function Mapu() {
 	return(
-		<div id="main">
-            <span role="img" aria-label="back arrow" style={{ marginTop:"7%", marginBottom: '2%' }}><Link to="/about">🔙</Link></span>
+		<div id="main" style={{ marginTop: '7%', marginBottom: '10%' }}>
+            <span role="img" aria-label="back arrow" style={{ marginBottom: '3%' }}><Link to="/about">🔙</Link></span>
             <h2 style={{ width: "100%", textAlign:"center" }}>Self-sovereign communities</h2>
             <section style={{ width:'100%' }}>
             <p>

@@ -4,8 +4,8 @@ import { Link, withRouter } from "react-router-dom";
 
 function About() {
 	return(
-		<div id="main">
-			<h2 style={{ width: "100%", textAlign:"center", marginTop: '8%' }}>About</h2>
+		<div id="main" style={{ marginTop: '7%', marginBottom: '10%' }}>
+			<h2 style={{ width: "100%", textAlign:"center" }}>About</h2>
 			<span class="image main"><img src={steffen} alt="" /></span>
 			<section style={{ width:'100%' }}>
 				<p>
@@ -26,11 +26,10 @@ function About() {
 					the sovereign owner of your online identity and data assets.
 				</p>
 				<p>
-				Specifically, Tyron develops open-source, decentralized applications such as the <Link to="/wallets">DID smart contract wallet</Link>.
-				And it will also provide other products and services for self-sovereign identities.
+					Specifically, Tyron develops open-source, decentralized applications such as the <Link to="/wallets">DID smart contract wallet</Link>.
+					And it will also provide other products and services for self-sovereign identities.
 				</p>
 				<li><Link to="/mapu">SSI communities</Link></li>
-                    
 			</section>
 		</div>
 	);

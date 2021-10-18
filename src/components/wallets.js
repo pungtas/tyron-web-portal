@@ -3,8 +3,8 @@ import { Link, withRouter } from "react-router-dom";
 
 function Wallets() {
 	return(
-		<div id="main">
-            <h2 style={{ width: "100%", textAlign:"center", marginTop: '8%' }}>DID<span style={{ textTransform: 'lowercase'}}>x</span>Wallet</h2>
+		<div id="main" style={{ marginTop: '7%', marginBottom: '10%' }}>
+            <h2 style={{ width: "100%", textAlign:"center" }}>DID<span style={{ textTransform: 'lowercase'}}>x</span>Wallet</h2>
             <section style={{ width: "100%" }}>    
                 <p>
                     This wallet, the <Link to="/did">Decentralized Identifier (DID)</Link> smart contract wallet, is the protocol's flagship.
@@ -12,7 +12,7 @@ function Wallets() {
                 <p>
                     The DIDxWallet implements the <a href="https://tyronzil.com">tyronzil</a> W3C DID Method, integrating the did.tyron smart
                     contract, which allows the user to establish a decentralized digital identity. Your Decentralized Identifier now got equipped with its own xWallet! We want to promote being open-source and
-                    transparent, and you can read our code by searching did.tyron or xwallet.tyron in the <a href="https://ssibrowser.com">ssibrowser.com</a>.
+                    transparent, and you can read our code by searching did.tyron or xwallet.tyron in the <a href="https://ssibrowser.com">SSI Browser</a>.
                 </p>
                 <p>
                     The did.tyron technology supports <a href="https://vitalik.ca/general/2021/01/11/recovery.html">Social Recovery</a> - thus, if your DID Controller key gets compromised, you can lock your wallet and recover it only through your social 

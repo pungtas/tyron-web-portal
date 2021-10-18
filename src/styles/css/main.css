@@ -1538,8 +1538,7 @@ input, select, textarea {
 		transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
 		width: 100%;
 		max-width: 100%;
-		margin-top: -6rem;
-		margin-bottom: -0rem;
+		margin-top: -14.5%;
 		text-align: right;
 	}
 

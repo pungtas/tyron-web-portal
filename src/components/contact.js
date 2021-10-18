@@ -3,8 +3,8 @@ import { Link, withRouter } from "react-router-dom";
 
 function Contact() {
 	return(
-		<div id="main">
-            <h2 style={{ width: "100%", textAlign:"center", marginTop: '8%'}}>Contact</h2>
+		<div id="main" style={{ marginTop: '7%', marginBottom: '10%' }}>
+            <h2 style={{ width: "100%", textAlign:"center" }}>Contact</h2>
             <section style={{ width: "100%", textAlign:"center" }}>
                 <ul style={{ listStyle: 'none' }}>
                     <li>
