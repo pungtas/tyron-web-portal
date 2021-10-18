@@ -27,9 +27,11 @@ function About() {
 					the sovereign owner of your online identity and data assets.
 				</p>
 				<p>
-				Specifically, Tyron develops open-source, decentralized applications such as <Link to="/wallets">smart contract wallets</Link>.
-				And it also provides other products and services for self-sovereign identities.
+				Specifically, Tyron develops open-source, decentralized applications such as the <Link to="/wallets">DID smart contract wallet</Link>.
+				And it will also provide other products and services for self-sovereign identities.
 				</p>
+				<li><Link to="/mapu">SSI communities</Link></li>
+                    
 			</section>
 		</div>
 	);

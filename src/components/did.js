@@ -9,12 +9,12 @@ function Did() {
             <p>
                 The W3C Decentralized Identifier Working Group has developed the <a href="https://w3c.github.io/did-core/">Decentralized Identifiers (DIDs)</a> specification
                 that defines a DID as a unique identifier that enables verifiable, decentralized digital identity. The Tyron Self-Sovereign Identity Protocol 
-                is conformant with this specification by implementing the <a href="https://www.tyronzil.com/">tyronzil.com</a> DID Method, listed in 
+                is conformant with this specification by implementing the <a href="https://www.tyronzil.com/">tyronzil</a> DID Method, listed in 
                 the <a href="https://w3c.github.io/did-spec-registries/">W3C DID Specification Registries</a>. A digital identity's decentralized identifier
                 relies on public attributes described in its DID Document. Such attributes are service endpoints and verification methods.
             </p>
             <section>
-            <h3 class="major">Service endpoints</h3>
+            <h3 class="major">Services</h3>
             <p>
                 Network addresses, such as an HTTP URL (web2) or blockchain address (web3), are endpoints at which services operate, and these web addresses 
                 are publicly available at the digital identity's DID Document. Services can refer to privacy-preserving communication (SSI Comm) and social networking apps, 
