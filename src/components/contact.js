@@ -4,8 +4,7 @@ import { Link, withRouter } from "react-router-dom";
 function Contact() {
 	return(
 		<div id="main">
-            <span role="img" aria-label="back arrow" style={{ marginTop:"7%", marginBottom: '2%' }}><Link to="/">🔙</Link></span>
-            <h2 style={{ width: "100%", textAlign:"center" }}>Contact</h2>
+            <h2 style={{ width: "100%", textAlign:"center", marginTop: '8%'}}>Contact</h2>
             <section style={{ width: "100%", textAlign:"center" }}>
                 <ul style={{ listStyle: 'none' }}>
                     <li>

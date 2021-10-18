@@ -4,7 +4,7 @@ import { Link, withRouter } from "react-router-dom";
 function Did() {
 	return(
 		<div id="main">
-            <span role="img" aria-label="back arrow" style={{ marginTop:"7%", marginBottom: '2%' }}><Link to="/">🔙</Link></span>
+            <span role="img" aria-label="back arrow" style={{ marginTop:"7%", marginBottom: '2%' }}><Link to="/wallets">🔙</Link></span>
             <h2 style={{ width: "100%", textAlign:"center" }}>Decentralized Identifiers</h2>
             <p>
                 The W3C Decentralized Identifier Working Group has developed the <a href="https://w3c.github.io/did-core/">Decentralized Identifiers (DIDs)</a> specification

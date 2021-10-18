@@ -5,8 +5,7 @@ import { Link, withRouter } from "react-router-dom";
 function About() {
 	return(
 		<div id="main">
-			<span role="img" aria-label="back arrow" style={{ marginTop:"7%", marginBottom: '2%' }}><Link to="/">🔙</Link></span>
-			<h2 style={{ width: "100%", textAlign:"center" }}>About</h2>
+			<h2 style={{ width: "100%", textAlign:"center", marginTop: '8%' }}>About</h2>
 			<span class="image main"><img src={steffen} alt="" /></span>
 			<section style={{ width:'100%' }}>
 				<p>

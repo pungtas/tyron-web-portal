@@ -4,11 +4,10 @@ import { Link, withRouter } from "react-router-dom";
 function Wallets() {
 	return(
 		<div id="main">
-            <span role="img" aria-label="back arrow" style={{ marginTop:"7%", marginBottom: '2%' }}><Link to="/">🔙</Link></span>
-            <h2 style={{ width: "100%", textAlign:"center" }}>DID<span style={{ textTransform: 'lowercase'}}>x</span>Wallet</h2>
+            <h2 style={{ width: "100%", textAlign:"center", marginTop: '8%' }}>DID<span style={{ textTransform: 'lowercase'}}>x</span>Wallet</h2>
             <section style={{ width: "100%" }}>    
                 <p>
-                    This wallet, the Decentralized Identifier smart contract wallet, is the protocol's flagship.
+                    This wallet, the <Link to="/did">Decentralized Identifier (DID)</Link> smart contract wallet, is the protocol's flagship.
                 </p>
                 <p>
                     The DIDxWallet implements the <a href="https://tyronzil.com">tyronzil</a> W3C DID Method, integrating the did.tyron smart
