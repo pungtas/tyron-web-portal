@@ -10,34 +10,72 @@ function Wallets() {
                     This wallet, the <Link to="/did">Decentralized Identifier (DID)</Link> smart contract wallet, is the protocol's flagship.
                 </p>
                 <p>
-                    The DIDxWallet implements the <a href="https://tyronzil.com">tyronzil</a> W3C DID Method, integrating the did.tyron smart
-                    contract, which allows the user to establish a decentralized digital identity. Your Decentralized Identifier now got equipped with its own xWallet! We want to promote being open-source and
-                    transparent, and you can read our code by searching did.tyron or xwallet.tyron in the <a href="https://ssibrowser.com">SSI Browser</a>.
+                    The DIDxWallet implements the
+                    {' '}<a
+                        href="https://tyronzil.com"
+                        rel="noreferrer" target="_blank"
+                    >
+                        tyronzil
+                    </a>{' '}
+                    W3C DID Method, integrating the did.tyron smart contract, which allows the user to establish a decentralized digital identity.
+                    Your Decentralized Identifier now got equipped with its own xWallet! We want to promote being open-source and
+                    transparent, and you can read our code by searching did.tyron or xwallet.tyron in the
+                    {' '}<a 
+                        href="https://ssibrowser.com"
+                        rel="noreferrer" target="_blank"
+                    >
+                        SSI Browser
+                    </a>.
                 </p>
                 <p>
-                    The did.tyron technology supports <a href="https://vitalik.ca/general/2021/01/11/recovery.html">Social Recovery</a> - thus, if your DID Controller key gets compromised, you can lock your wallet and recover it only through your social 
-                    recoverers. This use case is an example of how the tyronzil DID infrastructure increases the security of users.
+                    The did.tyron technology supports
+                    {' '}<a 
+                        href="https://vitalik.ca/general/2021/01/11/recovery.html"
+                        rel="noreferrer" target="_blank"
+                    >
+                        Social Recovery
+                    </a>{' '}
+                    - thus, if your DID Controller key gets compromised, you can lock your wallet and recover it only through your guardians.
+                    This use case is an example of how the tyronzil DID infrastructure increases the security of users.
                 </p>
                 <p>
                     With a DIDxWallet, you can:
                 </p>
                 <ul>
                     <li>
-                        Have a unique decentralized identifier and DID Document where you can show your services and verification methods. Then people know how to interact and authenticate with your digital identity.
+                        Have a unique decentralized identifier and DID Document where you can show your services and verification methods. Then people know how to interact and authenticate your digital identity.
                     </li>
                     <li>
-                        Own and transfer tokens
-                        (<a href="https://github.com/Zilliqa/ZRC/blob/master/zrcs/zrc-2.md">ZRC2-standard</a>).
-                        
+                        Own and transfer tokens (
+                        <a 
+                            href="https://github.com/Zilliqa/ZRC/blob/master/zrcs/zrc-2.md"
+                            rel="noreferrer" target="_blank"
+                        >
+                            ZRC2-standard
+                        </a>).
                     </li>
                     <li>
-                        Social Recovery: if you lose access to your DID Controller private key, your social recoverers will be able to instruct your DIDxWallet to update its controller with your new address. 
+                        Social Recovery: if you lose access to your DID Controller private key, your guardians will be able to help you order your DIDxWallet to update its controller with your new address. 
                     </li>
                     <li>
-                        DeFi: by interacting directly with the <a href="https://zilswap.io">ZilSwap</a> decentralized exchange, your xWallet can provide liquidity (yield farming) and trade tokens.
+                        DeFi: by interacting directly with the
+                        {' '}<a 
+                            href="https://zilswap.io"
+                            rel="noreferrer" target="_blank"
+                        >
+                            ZilSwap
+                        </a>{' '}
+                        decentralized exchange, your xWallet can provide liquidity (yield farming) and trade tokens.
                     </li>
                     <li>
-                        Staking: you can delegate $ZIL from your xWallet to the <a href="https://stake.zilliqa.com/">Zilliqa staking</a> smart contract.
+                        Staking: you can delegate ZIL from your xWallet to the
+                        {' '}<a 
+                            href="https://stake.zilliqa.com/"
+                            rel="noreferrer" target="_blank"
+                        >
+                            Zilliqa staking
+                        </a>{' '}
+                        smart contract.
                     </li>
                 </ul>
                 <p>

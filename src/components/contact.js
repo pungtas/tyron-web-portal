@@ -14,14 +14,22 @@ function Contact() {
                     </li>
                     <li>
                         <a
-                        href="https://discord.gg/FMAUh4ZNwZ"
-                        className="icon brands fa-discord"
+                            className="icon brands fa-discord"
+                            href="https://discord.gg/FMAUh4ZNwZ"
+                            rel="noreferrer" target="_blank"
                         >
-                        <span className="label">Discord</span>
+                        <span className="label">
+                            Discord
+                        </span>
                         </a>{' '} 
                         Zilgineers:
                         <code>
-                            <a href="https://discord.gg/FMAUh4ZNwZ">tyron-ssi-protocol</a>
+                            <a
+                                href="https://discord.gg/FMAUh4ZNwZ"
+                                rel="noreferrer" target="_blank"
+                            >
+                                tyron-ssi-protocol
+                            </a>
                         </code>
                     </li>
                 </ul>

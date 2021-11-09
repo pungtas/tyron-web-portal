@@ -22,8 +22,14 @@ function Mapu() {
                 <span class="image main"><img src={incendios_chubut} alt=""/></span>
                 <ul>
                     <li>
-                        Thousands of hectares got <a href="https://www.opendemocracy.net/en/democraciaabierta/patagonia-argentina-mining-indigenous-politics-fire/">
-                        intentionally burned in Patagonia in March 2021</a>. In the Chubut province of Argentina, fires destroyed more than 500 houses along seven towns,
+                        Thousands of hectares got
+                        {' '}<a
+                            href="https://www.opendemocracy.net/en/democraciaabierta/patagonia-argentina-mining-indigenous-politics-fire/"
+                            rel="noreferrer" target="_blank"
+                        >
+                            intentionally burned in Patagonia in March 2021
+                        </a>.
+                        In the Chubut province of Argentina, fires destroyed more than 500 houses along seven towns,
                         including national parks.
                     </li>
                     <li>

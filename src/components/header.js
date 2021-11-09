@@ -14,7 +14,14 @@ function Header() {
             </div>
             <nav>
                 <ul>
-                    <li><a href="https://www.ssibrowser.com">SSI Browser App</a></li>
+                    <li>
+                        <a
+                            href="https://www.ssibrowser.com"
+                            rel="noreferrer" target="_blank"
+                        >
+                            SSI Browser App
+                        </a>
+                    </li>
                 </ul>
             </nav>
             <nav>
