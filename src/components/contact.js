@@ -9,6 +9,27 @@ function Contact() {
                 <ul style={{ listStyle: 'none' }}>
                     <li>
                         <p>
+                            <a
+                                className="icon brands fa-discord"
+                                href="https://discord.gg/NPbd92HJ7e"
+                                rel="noreferrer" target="_blank"
+                            >
+                            <span className="label">
+                                Discord
+                            </span>
+                            </a>
+                            <code>
+                                <a
+                                    href="https://discord.gg/NPbd92HJ7e"
+                                    rel="noreferrer" target="_blank"
+                                >
+                                    Tyron SSI Community
+                                </a>
+                            </code>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
                             Email: <code>tyron@ssiprotocol.com</code>
                         </p>
                     </li>
@@ -22,7 +43,7 @@ function Contact() {
                             Discord
                         </span>
                         </a>{' '} 
-                        Zilgineers:
+                        In Zilgineers:
                         <code>
                             <a
                                 href="https://discord.gg/FMAUh4ZNwZ"

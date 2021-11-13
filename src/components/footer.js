@@ -5,6 +5,17 @@ function Footer() {
         <footer id="footer">
             <p>
                 <a
+                    class="icon brands fa-discord"
+                    href="https://discord.gg/NPbd92HJ7e"
+                    rel="noreferrer" target="_blank"
+                >
+                    <span class="label">
+                        Discord
+                    </span>
+                </a>
+            </p>
+            <p>
+                <a
                     class="icon brands fa-twitter"
                     href="https://twitter.com/ssiprotocol"
                     rel="noreferrer" target="_blank"
@@ -22,17 +33,6 @@ function Footer() {
                 >
                     <span class="label">
                         GitHub
-                    </span>
-                </a>
-            </p>
-            <p>
-                <a
-                    class="icon brands fa-discord"
-                    href="https://discord.gg/FMAUh4ZNwZ"
-                    rel="noreferrer" target="_blank"
-                >
-                    <span class="label">
-                        Discord
                     </span>
                 </a>
             </p>
