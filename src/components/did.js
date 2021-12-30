@@ -16,7 +16,7 @@ function Did() {
                 >
                     Decentralized Identifiers (DIDs)
                 </a>{' '}
-                specification that defines a DID as a unique identifier that enables verifiable, decentralized digital identity. The Tyron Self-Sovereign Identity Protocol 
+                specification that defines a DID as a unique identifier that enables verifiable, decentralized digital identity. The Self-Sovereign Identity Protocol 
                 is conformant with this specification by implementing the
                 {' '}<a
                     href="https://www.tyronzil.com/"

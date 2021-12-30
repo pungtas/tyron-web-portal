@@ -10,7 +10,7 @@ function About() {
 			<section style={{ width:'100%' }}>
 				<p>
 					The word <i>tyron</i> derives from the Greek <i>turannos</i>
-					, meaning ’sovereign’. The purpose of the Tyron Self-Sovereign Identity Protocol is to 
+					, meaning ’sovereign’. The purpose of the Self-Sovereign Identity Protocol is to 
 					give people sovereignty over their data. Sovereignty to empower our world and to enhance our security online.
 				</p>
 				<p>
@@ -19,7 +19,7 @@ function About() {
 				</p>
 				<h3 class="major">Self-sovereign identity (SSI)</h3>
 				<p>
-					The Tyron SSI Protocol enables people like you to manage your digital, online identities, proving who you are
+					The SSI Protocol enables people like you to manage your digital, online identities, proving who you are
 					without a middleman. This is achieved by anchoring <Link to="/did">decentralized identifiers</Link> on blockchain 
 					networks as a shared root of trust. With this technology, we can have legitimacy as users without giving
 					our data to a centralized authority that owns our information. Thus, the Tyron SSI Protocol empowers you to become

@@ -112,7 +112,7 @@ function PSC() {
             <section style={{ width:'100%' }}>
                 <h3 class="major">Travel Rule SSI Passport</h3>
                 <p>In compliance with the Financial Action Task Force (FATF) Travel Rule, the SSI Protocol grants every self-sovereign identity the possibility to have an Travel Rule SSI Passport that implements the <a href="https://intervasp.org/wp-content/uploads/2020/05/IVMS101-interVASP-data-model-standard-issue-1-FINAL.pdf">InterVASP Messaging Standard IVMS101</a> encrypted in their <Link to="/wallets">SSI permaWallet</Link>. To avoid illegal activities that harm society, such as terrorism financing and money laundering, developing into a web of trust.</p>
-                <p>Such a compliance mechanism makes $TYRON attractive to both retail and institutional investors. The private companies and other organizations that integrate the Tyron Self-Sovereign Identity Protocol will comply with the FATF Travel Rule when requiring their customer base to enable their Travel Rule SSI Passport.</p>
+                <p>Such a compliance mechanism makes $TYRON attractive to both retail and institutional investors. The private companies and other organizations that integrate the Self-Sovereign Identity Protocol will comply with the FATF Travel Rule when requiring their customer base to enable their Travel Rule SSI Passport.</p>
             </section>
         </div>
 	);
