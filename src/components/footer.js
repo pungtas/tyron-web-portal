@@ -36,6 +36,17 @@ function Footer() {
                     </span>
                 </a>
             </p>
+            <p>
+                <a
+                    class="icon brands fa-instagram"
+                    href="https://www.instagram.com/ssiprotocol/"
+                    rel="noreferrer" target="_blank"                    
+                >
+                    <span class="label">
+                        Instagram
+                    </span>
+                </a>
+            </p>
 		</footer>
     );
 }
