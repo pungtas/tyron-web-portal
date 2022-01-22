@@ -1,5 +1,5 @@
 import React from "react";
-import logo from '../images/tyron.gif';
+import logo from '../images/tyron_logo.png';
 import { Link } from "react-router-dom";
 import SSIBrowser from "./SSIBrowser";
 
