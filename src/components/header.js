@@ -19,7 +19,7 @@ function Header() {
                 <ul>
                     <li>
                         <a
-                            href="https://ssiprotocol.notion.site/TYRON-a-network-for-self-sovereign-identities-3e39d78b34464d178f4490048d026941"
+                            href="https://ssiprotocol.notion.site/ssiprotocol/TYRON-Whitepaper-5ca16fc254b343fb90cfeb725cbfa2c3"
                             rel="noreferrer" target="_blank"
                         >
                             whitepaper

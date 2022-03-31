@@ -9,7 +9,7 @@ function SSIBrowser() {
     return (
         <>
             <button className={styles.button} onClick={handleOnClick}>
-                SSI APP
+                SSI Browser
             </button>
         </>
     );
